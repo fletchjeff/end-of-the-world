@@ -1,0 +1,139 @@
+body {
+    background-color: #f3f3f3;
+    /*margin: 0 auto;*/
+    /*width: 900px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.header {
+    font-weight: 300;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+    line-height: 55px;
+}
+
+.main_text {
+    width:1200px;
+    font-weight: 300;
+    font-size: 11pt;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+
+.main_svg {
+    background-color: white;
+}
+
+.point {
+    /*fill: #ccc;*/
+    stroke: #000;
+    stroke-width: 0.5;
+}
+
+.line {
+    stroke: #ddd;
+    stroke-width: 1;
+}
+
+.no_line {
+    stroke: #fff;
+    stroke-width: 0;
+}
+
+.indicator_line {
+    stroke: #333;
+    stroke-width: 1;
+}
+
+.info_block {
+    fill: #f0f0f0;
+    stroke: #666;
+    stroke-width: 1;
+    opacity: 0.95;
+}
+
+.other_block {
+    fill: #f0f0f0;
+    stroke: #666;
+    stroke-width: 0;
+    opacity: 0.95;
+}
+
+.info_line {
+    stroke: #888;
+    stroke-width: 1;
+}
+
+.visual_line {
+    stroke: #aaa;
+    stroke-width: 1;
+}
+
+.visual_circle {
+    fill: #666;
+    stroke: #000;
+    stroke-width: 0;
+}
+
+.key_circle {
+    stroke: #000;
+    stroke-width: 0.5;
+}
+.axis path {
+    fill: none;
+    stroke: #aaa;
+}
+
+.axis line {
+    font-size: 10pt;
+    stroke: #ddd;
+    shape-rendering: crispEdges;
+}
+
+.tick {}
+
+.tooltip_block {
+    color: #000;
+
+}
+
+.tooltip {
+    color: #000;
+}
+
+.row_label {
+  font-weight: 700;
+}
+
+.row_info {
+  margin: 0;
+  padding: 0;
+  /*line-height: 0;*/
+}
+
+.bigger {
+  font-size: 1.5em;
+}
+
+.bit_bigger {
+  font-size: 1.2em;
+}
+.big_title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+
+.right {
+  text-align: right;
+}
